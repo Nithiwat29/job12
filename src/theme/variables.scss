@@ -1,2 +1,38 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+:root {
+	--ion-color-pink: #e534df;
+	--ion-color-pink-rgb: 229,52,223;
+	--ion-color-pink-contrast: #000000;
+	--ion-color-pink-contrast-rgb: 0,0,0;
+	--ion-color-pink-shade: #ca2ec4;
+	--ion-color-pink-tint: #e848e2;
+}
+
+.ion-color-pink {
+	--ion-color-base: var(--ion-color-pink);
+	--ion-color-base-rgb: var(--ion-color-pink-rgb);
+	--ion-color-contrast: var(--ion-color-pink-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-pink-contrast-rgb);
+	--ion-color-shade: var(--ion-color-pink-shade);
+	--ion-color-tint: var(--ion-color-pink-tint);
+}
+
+:root {
+	--ion-color-pppp: #e599e3;
+	--ion-color-pppp-rgb: 229,153,227;
+	--ion-color-pppp-contrast: #000000;
+	--ion-color-pppp-contrast-rgb: 0,0,0;
+	--ion-color-pppp-shade: #ca87c8;
+	--ion-color-pppp-tint: #e8a3e6;
+}
+
+.ion-color-pppp {
+	--ion-color-base: var(--ion-color-pppp);
+	--ion-color-base-rgb: var(--ion-color-pppp-rgb);
+	--ion-color-contrast: var(--ion-color-pppp-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-pppp-contrast-rgb);
+	--ion-color-shade: var(--ion-color-pppp-shade);
+	--ion-color-tint: var(--ion-color-pppp-tint);
+}
