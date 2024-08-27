@@ -6,32 +6,32 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-segment value="all">
-  <ion-segment-button value="select">
-    <ion-label>select</ion-label>
-  </ion-segment-button>
-  <ion-segment-button value="toggle">
-    <ion-label>toggle</ion-label>
-  </ion-segment-button>
-</ion-segment>
 
-<ion-list>
-  <ion-item>
-    <ion-select aria-label="fruit" placeholder="Select fruit">
-      <ion-select-option value="apples">Apples</ion-select-option>
-      <ion-select-option value="oranges">Oranges</ion-select-option>
-      <ion-select-option value="bananas">Bananas</ion-select-option>
-    </ion-select>
-  </ion-item>
-</ion-list>
-
-<ion-searchbar></ion-searchbar>
-
-<ion-button expand="block" (click)="presentToast('bottom')">Present Toast At the Bottom</ion-button>
-<ion-toggle [enableOnOffLabels]="true">Enable Notifications</ion-toggle>
 
 <ion-content [fullscreen]="true">
+  <ion-segment value="all">
+    <ion-segment-button value="select">
+      <ion-label>select</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="toggle">
+      <ion-label>toggle</ion-label>
+    </ion-segment-button>
+  </ion-segment>
 
+  <ion-list>
+    <ion-item>
+      <ion-select aria-label="fruit" placeholder="Select fruit">
+        <ion-select-option value="apples">Apples</ion-select-option>
+        <ion-select-option value="oranges">Oranges</ion-select-option>
+        <ion-select-option value="bananas">Bananas</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-searchbar></ion-searchbar>
+
+  <ion-button expand="block" (click)="presentToast('bottom')">Present Toast At the Bottom</ion-button>
+  <ion-toggle [enableOnOffLabels]="true">Enable Notifications</ion-toggle>
 </ion-content>
 
 
